@@ -29,6 +29,7 @@ export default defineConfig([
   },
   {
     rules: {
+      '@typescript-eslint/no-unused-vars': 'warn',
       quotes: ['error', 'single'], // Enforces single quotes
       'prettier/prettier': [
         'error',

@@ -44,3 +44,9 @@ npm i eslint-plugin-jest -D
 npm i prettier eslint-plugin-prettier eslint-config-prettier -D
 npm i eslint-config-prettier -D
 ```
+
+7. Setup Nodemon & Dotenv
+
+```bash
+npm i nodemon dotenv -D
+```
