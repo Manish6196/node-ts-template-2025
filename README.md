@@ -1,3 +1,5 @@
+# Template for Typescript + Node Projects 2025
+
 ## Steps involved in setup of this project
 
 [Setup Source](https://www.youtube.com/watch?v=GTDYsV5pyZU)
