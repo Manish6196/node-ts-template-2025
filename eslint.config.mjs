@@ -27,7 +27,6 @@ export default defineConfig([
       'jest/prefer-expect-assertions': 'off',
     },
   },
-  EslintPluginPrettierRecommended,
   {
     rules: {
       quotes: ['error', 'single'], // Enforces single quotes
@@ -36,8 +35,6 @@ export default defineConfig([
         { singleQuote: true, jsxSingleQuote: true },
       ], // Ensures Prettier rule is applied
     },
-    extends: [
-      'prettier', // Must be last to disable conflicting rules
-    ],
   },
+  EslintPluginPrettierRecommended,
 ]);
